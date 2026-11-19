@@ -1,0 +1,11 @@
+[project]
+name = "hn-hiring-spike"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "logfire[agent-sandboxes]>=5.6.0",
+    "pandas>=3.1.1",
+    "pydantic-ai-harness[codemode,dynamic-workflow,temporal]>=0.67.0",
+    "pydantic-ai-slim[anthropic,openai,typesafe]>=2.69.0",
+]
