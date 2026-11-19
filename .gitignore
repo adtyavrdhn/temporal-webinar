@@ -1,0 +1,6 @@
+.venv/
+.env
+.logfire
+__pycache__/
+.ruff_cache/
+runs/
